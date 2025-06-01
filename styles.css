@@ -17,7 +17,7 @@ body {
 }
 
 input {
-  width: 350px;
+  width: 330px;
   height: 20px;
   padding: 10px;
   margin: 10px;
@@ -27,7 +27,7 @@ input {
 }
 
 #error {
-  width: 370px;
+  width: 350px;
   color: rgb(140, 31, 31);
   margin: 0px auto;
   text-align: left;
@@ -36,7 +36,7 @@ input {
 
 button {
   box-sizing: content-box;
-  width: 350px;
+  width: 335px;
   padding: 10px;
   margin: 10px;
   color: white;
@@ -61,7 +61,7 @@ button:hover {
   border-radius: 10px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
-  width: 330px;
+  width: 315px;
   margin: auto;
   text-align: left;
 }
@@ -75,7 +75,7 @@ table {
   margin: auto;
   margin-top: 25px;
   padding: 20px;
-  width: 370px;
+  width: 350px;
 }
 
 .leaderboard-rank {
@@ -90,4 +90,60 @@ table {
 .leaderboard-number {
   text-align: right;
   font-size: 24px;
+}
+
+#star-of-the-month {
+  background-color: #c08b10;
+  color: white;
+  border-radius: 10px;
+  padding: 1px 20px 20px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
+  width: 315px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#star-description {
+  display: flex;
+  justify-content: center;
+}
+
+#max-number {
+  margin: 16px 4px 0px;
+}
+
+#max {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#pray {
+  background-color: #c08b10;
+  color: white;
+  border-radius: 10px;
+  padding: 1px 20px 20px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
+  width: 315px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#bad-data {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bad-description {
+  display: flex;
+  justify-content: center;
+}
+
+#bad-data-number {
+  margin: 16px 4px 0px;
+}
+
+#bad-data-date {
+  margin: 16px 4px 0px;
 }

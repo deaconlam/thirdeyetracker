@@ -15,14 +15,30 @@
 <body>
   <div id="dashboard">
     <h1 id="title">Welcome</h1>
+    <div id="star-of-the-month">
+      <h2 style="text-align: center;">Star of the Month</h2>
+      <h1 id="max">-</h1>
+      <div id="star-description">
+        <p>went to the toilet for</p>
+        <p id="max-number">-</p>
+        <p>times this month.</p>
+      </div>
+    </div>
+    <div id="pray">
+      <h2 style="text-align: center;">Let's pray for...</h2>
+      <h1 id="bad-data">-</h1>
+      <div class="bad-description">
+        <p>they had a</p>
+        <p id="bad-data-number">-</p>
+      </div>
+      <div class="bad-description">
+        <p>on</p>
+        <p id="bad-data-date">-</p>
+      </div>
+    </div>
     <div id="leaderboard">
-      <h2>Leaderboard</h2>
+      <h2>May Leaderboard</h2>
       <table>
-        <tr>
-          <th>Rank</th>
-          <th></th>
-          <th></th>
-        </tr>
         <tr>
           <td class="leaderboard-rank">1</td>
           <td class="leaderboard-name" id="name-1">-</td>
@@ -75,7 +91,7 @@
         </tr>
       </table>
     </div>
-    <button id="logout">Log Out</button>
+    <button id="logout">Sign out</button>
   </div>
 </body>
 </html>
