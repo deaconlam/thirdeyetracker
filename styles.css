@@ -61,7 +61,7 @@ button:hover {
   border-radius: 10px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
-  width: 315px;
+  width: 300px;
   margin: auto;
   text-align: left;
 }
@@ -75,7 +75,7 @@ table {
   margin: auto;
   margin-top: 25px;
   padding: 20px;
-  width: 350px;
+  width: 335px;
 }
 
 .leaderboard-rank {
@@ -98,22 +98,22 @@ table {
   border-radius: 10px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
-  width: 315px;
+  width: 300px;
   margin: auto;
   text-align: left;
   margin-bottom: 10px;
 }
 
-#star-description {
+#star-description, .bad-description {
   display: flex;
   justify-content: center;
 }
 
-#min-number, #max-number {
+#min-number, #max-number, #bad-data-number, #bad-data-date {
   margin: 16px 4px 0px;
 }
 
-#min, #max {
+#min, #max, #bad-data {
   text-align: center;
   margin-top: 30px;
 }
@@ -124,33 +124,19 @@ table {
   border-radius: 10px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
-  width: 315px;
+  width: 300px;
   margin: auto;
   text-align: left;
   margin-bottom: 10px;
 }
 
-#bad-data {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.bad-description {
-  display: flex;
-  justify-content: center;
-}
-
-#bad-data-number {
-  margin: 16px 4px 0px;
-}
-
-#bad-data-date {
-  margin: 16px 4px 0px;
-}
-
 #last-updated {
   text-align: left;
   margin: auto;
-  width: 350px;
+  width: 335px;
   padding-bottom: 10px;
+}
+
+#bad-data-number {
+  text-align: center;
 }
