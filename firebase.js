@@ -5,12 +5,6 @@ auth.onAuthStateChanged(async user => {
   }
 });
 
-document.getElementById("logout").addEventListener("click", () => {
-  auth.signOut().then(() => {
-    window.location.href = "login.html";
-  });
-});
-
 db.collection("usernames").doc("admin").get()
   .then((doc) => {
     if (doc.exists) {
@@ -40,11 +34,9 @@ db.collection("usernames").doc("admin").get()
       document.getElementById("bad-data").innerHTML = data.bad_data;
       document.getElementById("bad-data-number").innerHTML = data.bad_data_number;
       document.getElementById("bad-data-date").innerHTML = data.bad_data_date;
-
-
-
-
-
+      document.getElementById("min").innerHTML = data.min;
+      document.getElementById("min-number").innerHTML = data.min_number;
+      document.getElementById("last-updated").innerHTML = data.last_updated;
     }
   })
   .catch((error) => {

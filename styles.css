@@ -56,7 +56,7 @@ button:hover {
 }
 
 #leaderboard {
-  background-color: #c08b10;
+  background-color: #594413;
   color: white;
   border-radius: 10px;
   padding: 1px 20px 20px;
@@ -93,7 +93,7 @@ table {
 }
 
 #star-of-the-month {
-  background-color: #c08b10;
+  background-color: #594413;
   color: white;
   border-radius: 10px;
   padding: 1px 20px 20px;
@@ -109,17 +109,17 @@ table {
   justify-content: center;
 }
 
-#max-number {
+#min-number, #max-number {
   margin: 16px 4px 0px;
 }
 
-#max {
+#min, #max {
   text-align: center;
   margin-top: 30px;
 }
 
 #pray {
-  background-color: #c08b10;
+  background-color: #594413;
   color: white;
   border-radius: 10px;
   padding: 1px 20px 20px;
@@ -146,4 +146,11 @@ table {
 
 #bad-data-date {
   margin: 16px 4px 0px;
+}
+
+#last-updated {
+  text-align: left;
+  margin: auto;
+  width: 350px;
+  padding-bottom: 10px;
 }
