@@ -1,0 +1,93 @@
+body {
+  font-family: "Product Sans";
+  user-select: none;
+}
+
+.container {
+  height: 80vh;
+  text-align: center;
+}
+
+.form {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+input {
+  width: 350px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #594413;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
+}
+
+#error {
+  width: 370px;
+  color: rgb(140, 31, 31);
+  margin: 0px auto;
+  text-align: left;
+  padding: 5px;
+}
+
+button {
+  box-sizing: content-box;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  background-color: #594413;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #735818;
+}
+
+#dashboard {
+  text-align: center;
+}
+
+#leaderboard {
+  background-color: #c08b10;
+  color: white;
+  border-radius: 10px;
+  padding: 1px 20px 20px;
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
+  width: 330px;
+  margin: auto;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+#title {
+  text-align: left;
+  margin: auto;
+  margin-top: 25px;
+  padding: 20px;
+  width: 370px;
+}
+
+.leaderboard-rank {
+  font-size: 24px;
+}
+
+.leaderboard-name {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.leaderboard-number {
+  text-align: right;
+  font-size: 24px;
+}
