@@ -1,5 +1,9 @@
 body {
   font-family: "Product Sans";
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
   user-select: none;
 }
 
@@ -139,4 +143,9 @@ table {
 
 #bad-data-number {
   text-align: center;
+}
+
+#logo {
+  height: 96px;
+  width: 96px;
 }
