@@ -10,7 +10,7 @@ body {
 
 .form {
   position: relative;
-  top: 50%;
+  top: 55%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -36,7 +36,7 @@ input {
 
 button {
   box-sizing: content-box;
-  width: 335px;
+  width: 333px;
   padding: 10px;
   margin: 10px;
   color: white;
