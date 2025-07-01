@@ -77,8 +77,8 @@ table {
 #title {
   text-align: left;
   margin: auto;
-  margin-top: 25px;
-  padding: 20px;
+  padding-left: 15px;
+  padding-bottom: 5px;
   width: 335px;
 }
 
@@ -149,4 +149,24 @@ table {
 #logo {
   height: 96px;
   width: 96px;
+}
+
+#title-logo {
+  height: 36px;
+  width: 36px;
+}
+
+#title-div {
+  display: flex;
+  align-items: center;
+  padding-left: 7.5px;  
+  width: 340px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#img {
+  max-width: 100%;
+  max-height: 100%;
 }
