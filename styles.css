@@ -157,17 +157,17 @@ table {
 #title-logo {
   height: 36px;
   width: 36px;
-  object-fit: contain;
 }
 
 #title-div {
   display: flex;
   align-items: center;
-  padding-left: 7.5px;
-  max-width: 340px;
+  padding-left: 7.5px;  
+  width: 340px;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 10px;
+<<<<<<< HEAD
 }
 
 #image {
@@ -176,4 +176,6 @@ table {
 
 .leaderboard-rank-emoji {
   font-size: 24px;
+=======
+>>>>>>> parent of 6497b28 (Update)
 }
