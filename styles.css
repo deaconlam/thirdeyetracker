@@ -1,3 +1,4 @@
+
 body {
   font-family: "Product Sans";
   -webkit-user-select: none;
@@ -5,8 +6,6 @@ body {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-  width: 375px;
-  margin: auto;
 }
 
 .container {
@@ -86,7 +85,6 @@ table {
 
 .leaderboard-rank {
   font-size: 24px;
-  padding-left: 6px;
 }
 
 .leaderboard-name {
@@ -157,25 +155,19 @@ table {
 #title-logo {
   height: 36px;
   width: 36px;
+  object-fit: contain;
 }
 
 #title-div {
   display: flex;
   align-items: center;
-  padding-left: 7.5px;  
-  width: 340px;
+  padding-left: 7.5px;
+  max-width: 340px;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 10px;
-<<<<<<< HEAD
 }
 
 #image {
   flex-shrink: 0;
-}
-
-.leaderboard-rank-emoji {
-  font-size: 24px;
-=======
->>>>>>> parent of 6497b28 (Update)
 }
