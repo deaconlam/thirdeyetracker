@@ -29,6 +29,8 @@ db.collection("usernames").doc("admin").get()
       document.getElementById("number-9").innerHTML = data.leaderboard_9_number;
       document.getElementById("name-10").innerHTML = data.leaderboard_10_name;
       document.getElementById("number-10").innerHTML = data.leaderboard_10_number;
+      document.getElementById("name-11").innerHTML = data.leaderboard_11_name;
+      document.getElementById("number-11").innerHTML = data.leaderboard_11_number;
       document.getElementById("max").innerHTML = data.max;
       document.getElementById("max-number").innerHTML = data.max_number;
       document.getElementById("bad-data").innerHTML = data.bad_data;
