@@ -9,13 +9,15 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     if (!doc.exists) throw new Error("Admin document not found");
     const data = doc.data();
 
-    if (data.available_status === "1") {
+    if (data.available_status === "0") {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "none";
       document.getElementById("unavailableui").style.display = "block";
+      document.body.style.background = "white";
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
+      document.body.style.background = "#594413";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
       document.getElementById("number-1").innerHTML = data.leaderboard_1_number;
@@ -74,13 +76,15 @@ auth.onAuthStateChanged(async user => {
     if (!doc.exists) throw new Error("Admin document not found");
     const data = doc.data();
 
-    if (data.available_status === "1") {
+    if (data.available_status === "0") {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "none";
       document.getElementById("unavailableui").style.display = "block";
+      document.body.style.background = "white";
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
+      document.body.style.background = "#594413";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
       document.getElementById("number-1").innerHTML = data.leaderboard_1_number;

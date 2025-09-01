@@ -5,7 +5,7 @@ body {
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-  background-color: #594413;
+  background-color: white;
   margin: 0;
 }
 
@@ -71,7 +71,6 @@ button:hover {
 }
 
 #dashboard {
-  background-color: #594413;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   padding-bottom: 15px;
@@ -219,4 +218,10 @@ table {
 #loginui, #unavailableui {
   background-color: white;
   height: 100vh;
+}
+
+#iframe {
+  width: 340px;
+  margin: auto;
+  padding-top: 20px;
 }
