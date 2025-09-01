@@ -17,6 +17,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
+      window.scrollTo(0, 0);
       document.body.style.background = "linear-gradient(to bottom, #594413 50%, white 50%)";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
@@ -84,6 +85,7 @@ auth.onAuthStateChanged(async user => {
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
+      window.scrollTo(0, 0);
       document.body.style.background = "linear-gradient(to bottom, #594413 50%, white 50%)";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
