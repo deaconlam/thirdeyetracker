@@ -17,7 +17,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
-      document.body.style.background = "#594413";
+      document.body.style.background = "linear-gradient(to bottom, #594413 50%, white 50%)";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
       document.getElementById("number-1").innerHTML = data.leaderboard_1_number;
@@ -84,7 +84,7 @@ auth.onAuthStateChanged(async user => {
     } else {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "block";
-      document.body.style.background = "#594413";
+      document.body.style.background = "linear-gradient(to bottom, #594413 50%, white 50%)";
       document.getElementById("unavailableui").style.display = "none";
       document.getElementById("name-1").innerHTML = data.leaderboard_1_name;
       document.getElementById("number-1").innerHTML = data.leaderboard_1_number;
