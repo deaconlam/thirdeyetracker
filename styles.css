@@ -1,10 +1,19 @@
 body {
-  font-family: "Product Sans";
+  font-family: "San Francisco";
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
+  background-color: white;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-style: normal;
+  font-weight: 400;
+src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
 }
 
 .container {
@@ -62,14 +71,27 @@ button:hover {
 }
 
 #dashboard {
-  text-align: center;
+  background-color: #594413;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-bottom: 15px;
+  width: 100%;
+  color:white;
+}
+
+#leaderboard-title {
+  color: #594413;
+  width: 330px;
+  margin: auto;
+  padding: 20px 0px 10px;
+  text-align: left;
 }
 
 #leaderboard {
-  background-color: #594413;
-  color: white;
-  border-radius: 10px;
-  padding: 1px 20px 20px;
+  background-color: #b79d62;
+  color: #594413;
+  border-radius: 20px;
+  padding: 20px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
   width: 300px;
   margin: auto;
@@ -84,14 +106,15 @@ table {
 #title {
   text-align: left;
   margin: auto;
-  padding-left: 15px;
+  padding-left: 0px;
   padding-bottom: 5px;
   width: 300px;
 }
 
 .leaderboard-rank {
   font-size: 24px;
-  padding-left: 6px;
+  text-align: center;
+  padding-right: 10px;
 }
 
 .leaderboard-name {
@@ -100,14 +123,14 @@ table {
 }
 
 .leaderboard-number {
-  text-align: right;
+  text-align: center;
   font-size: 24px;
 }
 
 #star-of-the-month {
-  background-color: #594413;
-  color: white;
-  border-radius: 10px;
+  background-color: #b79d62;
+  color: #594413;
+  border-radius: 20px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
   width: 300px;
@@ -131,9 +154,9 @@ table {
 }
 
 #pray {
-  background-color: #594413;
-  color: white;
-  border-radius: 10px;
+  background-color: #b79d62;
+  color: #594413;
+  border-radius: 20px;
   padding: 1px 20px 20px;
   box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.24);  
   width: 300px;
@@ -160,13 +183,6 @@ table {
   border-radius: 20px;
 }
 
-#title-logo {
-  height: 36px;
-  width: 36px;
-  object-fit: contain;
-  border-radius: 7.5px;
-}
-
 #title-div {
   display: flex;
   align-items: center;
@@ -179,10 +195,6 @@ table {
 
 #image {
   flex-shrink: 0;
-}
-
-.leaderboard-rank-emoji {
-  font-size: 24px;
 }
 
 .berightbacklogo {

@@ -9,7 +9,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
     if (!doc.exists) throw new Error("Admin document not found");
     const data = doc.data();
 
-    if (data.available_status === "0") {
+    if (data.available_status === "1") {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "none";
       document.getElementById("unavailableui").style.display = "block";
@@ -51,7 +51,7 @@ document.getElementById("login-form").addEventListener("submit", async (e) => {
   } catch (err) {
     if (err.code === "auth/too-many-requests") {
       document.getElementById("error").innerHTML = "Too Many Requests";
-    } else if (err.code === "auth/wrong-password") {
+    } else if ((err.code === "auth/wrong-password") || (err.code === "auth/invalid-credential")) {
       document.getElementById("error").innerHTML = "Invalid Access Code";
     } else {
       console.error(err);
@@ -74,7 +74,7 @@ auth.onAuthStateChanged(async user => {
     if (!doc.exists) throw new Error("Admin document not found");
     const data = doc.data();
 
-    if (data.available_status === "0") {
+    if (data.available_status === "1") {
       document.getElementById("loginui").style.display = "none";
       document.getElementById("indexui").style.display = "none";
       document.getElementById("unavailableui").style.display = "block";
