@@ -12,6 +12,12 @@ body {
   text-align: center;
 }
 
+.unavailable {
+  margin:auto;
+  height: 80vh;
+  text-align: center;
+}
+
 .form {
   position: relative;
   top: 55%;
@@ -151,12 +157,14 @@ table {
 #logo {
   height: 96px;
   width: 96px;
+  border-radius: 20px;
 }
 
 #title-logo {
   height: 36px;
   width: 36px;
   object-fit: contain;
+  border-radius: 7.5px;
 }
 
 #title-div {
@@ -175,4 +183,16 @@ table {
 
 .leaderboard-rank-emoji {
   font-size: 24px;
+}
+
+.berightbacklogo {
+  height: 200px;
+  width: 200px;
+  border-radius: 40px;
+}
+
+.berightback {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
